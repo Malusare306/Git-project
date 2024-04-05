@@ -6,14 +6,14 @@ public class Employee {
 	private String name;
 	private int salary;
 	private String city;
-	
+
 	public Employee(int id, String name, int salary, String city) {
-	super();
-	this.id = id;
-	this.name = name;
-	this.salary = salary;
-	this.city = city;
-			
+		super();
+		this.id = id;
+		this.name = name;
+		this.salary = salary;
+		this.city = city;
+
 	}
 
 	public int getId() {
@@ -52,8 +52,5 @@ public class Employee {
 	public String toString() {
 		return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + ", city=" + city + "]";
 	}
-	
-	
-	
 
 }
